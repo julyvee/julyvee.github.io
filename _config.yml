@@ -21,10 +21,8 @@
 title: Julyvee Dev
 author: Julia Valder
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Julia Valder, a software engineer for Microsoft in the 
-  Commercial Software Engineering Organization. On this blog 
-  I am sharing learnings about software engineering, technologies
-  and methods from my development projects.
+  Personal developer blog for Julia Valder, a software engineer for Microsoft in the 
+  Commercial Software Engineering Organization
 url: "https://julyvee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  julyvee
 
