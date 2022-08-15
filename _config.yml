@@ -29,10 +29,9 @@ url: "https://julyvee.github.io" # the base hostname & protocol for your site, e
 github_username:  julyvee
 
 # Build settings
-remote_theme: pages-themes/modernist@v0.2.0
+remote_theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
