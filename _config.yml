@@ -29,7 +29,7 @@ url: "https://julyvee.github.io" # the base hostname & protocol for your site, e
 github_username:  julyvee
 
 # Build settings
-theme: jekyll-theme-modernist
+theme: modernist
 plugins:
   - jekyll-feed
 
