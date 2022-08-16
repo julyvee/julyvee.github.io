@@ -6,4 +6,4 @@ The site is built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https
 
 ## License
 
-This code is open sourced under the [MIT License](https://github.com/julyvee/julyvee.github.io/blob/main/LICENSE.txt)
+This code is open sourced under the [MIT License](https://github.com/julyvee/julyvee.github.io/blob/main/LICENSE.txt).
