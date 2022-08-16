@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: ms-2.jpg
+image: ms-x.jpg
 ---
 My name is Julia Valder. I'm a software engineer at Microsoft in the Commercial Software Engineering Organization. 
 
