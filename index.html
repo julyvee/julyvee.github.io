@@ -15,6 +15,7 @@ layout: default
   {% assign currentPage = 1 %}
 {% endif %}
 
+<a id="content"></a>
 <div class="content-wrap">
   <div class="wrapper" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
   {% for post in site.posts limit:site.paginate offset:offset %}
