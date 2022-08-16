@@ -1984,7 +1984,7 @@ table tr:hover {
     right: -250px;
     bottom: 0;
     left: auto;
-    background-color: rgba(0, 120, 217, 0.8);
+    background-color: rgba(217, 217, 217, 0.8);
     overflow-y: auto;
     z-index: 10;
     -webkit-transition: right 0.35s cubic-bezier(0.565, 1.65, 0.765, 0.9);
