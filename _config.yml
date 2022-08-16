@@ -1,52 +1,63 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Julyvee Dev
-author: Julia Valder
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal developer blog for Julia Valder, a software engineer for Microsoft in the 
+description: >- 
+  Personal developer blog for Julia Valder, a software engineer at Microsoft in the 
   Commercial Software Engineering Organization
-url: "https://julyvee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  julyvee
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://julyvee.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Banner Section
+hero: cse.jpg
+hero-title: Julia Valder
+hero-description: >- 
+  Software engineer at Microsoft in the 
+  Commercial Software Engineering Organization
+
+# Author - Creator
+author-name: Julia Valder
+author-image: juliavalder.jpg
+about-author: Julia Valder is a software engineer at Microsoft in the Commercial Software Engineering Organization. 
+author-github: https://www.github.com/julyvee
+author-linkedin: https://linkedin.com/in/julia-valder
+
+# Social Media Links (Links are located in hero and footer)
+linkedin: https://linkedin.com/in/julia-valder
+github: https://www.github.com/julyvee
+
+# Contact Form Settings
+contact-subtitle: Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Kogi cornhole enamel. # Title for the subscription form.
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Comment Section (Disqus)
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
-theme: minima
+markdown: kramdown
+permalink: pretty
+paginate: 9
+paginate_path: "/page/:num"
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
 plugins:
+  - jekyll-paginate
   - jekyll-feed
 
+include:
+  - _pages
+
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - vendor
