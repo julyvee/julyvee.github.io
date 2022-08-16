@@ -3,6 +3,8 @@ layout: page
 title: About
 image: ms-x.jpg
 ---
+<h1 class="page-title"><center>{{ page.title | escape }}</center></h1>
+
 My name is Julia Valder. I'm a software engineer at Microsoft in the Commercial Software Engineering Organization. 
 
 ***

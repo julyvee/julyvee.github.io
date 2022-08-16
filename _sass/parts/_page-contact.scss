@@ -41,11 +41,11 @@
     }
     .form-btn {
       font-weight: 700;
-      background-color: $blue;
+      background-color: $black;
       color: $white;
       border-radius: 3px;
       &:hover {
-        background-color: darken($blue, 15%);
+        background-color: darken($black, 15%);
       }
     }
   }

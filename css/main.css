@@ -594,11 +594,11 @@ table tr:hover {
   line-height: 14px;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid #0078d9;
+  border: 1px solid #000000;
   -webkit-border-radius: 0;
           border-radius: 0;
   background-color: transparent;
-  color: #0078d9;
+  color: #000000;
   outline: none;
   cursor: pointer;
   -webkit-transition: all 0.2s ease;
@@ -607,7 +607,7 @@ table tr:hover {
 }
 
 .btn:hover {
-  background-color: #0078d9;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -638,12 +638,12 @@ table tr:hover {
 }
 
 ::-moz-selection {
-  background: rgba(0, 120, 217, 0.7);
+  background: rgba(67, 67, 67, 0.7);
   color: #ffffff;
 }
 
 ::selection {
-  background: rgba(0, 120, 217, 0.7);
+  background: rgba(67, 67, 67, 0.7);
   color: #ffffff;
 }
 
@@ -652,7 +652,7 @@ table tr:hover {
 .site-header {
   height: 60px;
   position: relative;
-  background-color: #0078d9;
+  background-color: #000000;
   overflow: hidden;
 }
 
@@ -792,7 +792,7 @@ table tr:hover {
 .search-form input[type="text"] {
   font-size: 14px;
   color: #ffffff;
-  background-color: #0078d9;
+  background-color: #000000;
   border: none;
 }
 
@@ -916,7 +916,7 @@ table tr:hover {
   position: relative;
   width: 100%;
   min-height: 700px;
-  background-color: rgba(220, 235, 245, 0.2) !important;
+  background-color: rgba(219, 223, 225, 0.2) !important;
   -webkit-background-size: cover !important;
           background-size: cover !important;
   background-position: center !important;
@@ -940,7 +940,7 @@ table tr:hover {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.3;
-  color: rgba(0, 120, 217, 0.6);
+  color: rgba(22, 22, 22, 0.8);
   text-shadow: 0px 1px 1px rgba(51, 51, 51, 0.1);
 }
 
@@ -987,7 +987,7 @@ table tr:hover {
 }
 
 .info-social-list li a:hover {
-  background-color: rgba(206, 230, 255, 0.5);
+  background-color: rgba(203, 203, 203, 0.5);
 }
 
 .info-social-list li a,
@@ -1001,7 +1001,7 @@ table tr:hover {
 
 .info-social-list li a:hover,
 .info-social-list li span:hover {
-  color: #0078d9;
+  color: #000000;
 }
 
 .info-social-list li span {
@@ -1049,14 +1049,14 @@ table tr:hover {
   outline: none;
   cursor: pointer;
   color: #ffffff;
-  background-color: #0078d9;
+  background-color: #000000;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .newsletter-button:hover {
-  background-color: #004e8d;
+  background-color: #8c8c8c;
 }
 
 /* 5. ========== Posts Styles ========== */
@@ -1446,7 +1446,7 @@ table tr:hover {
   margin-right: 10px;
   float: left;
   font-size: 55px;
-  color: #0078d9;
+  color: #000000;
   line-height: 0.6;
 }
 
@@ -1624,7 +1624,7 @@ table tr:hover {
 }
 
 .top:hover {
-  color: #0078d9;
+  color: #000000;
   opacity: 1;
 }
 
@@ -1728,7 +1728,7 @@ table tr:hover {
 }
 
 .social-footer li a:hover {
-  color: #0078d9;
+  color: #000000;
 }
 
 .copyright {
@@ -1799,7 +1799,8 @@ table tr:hover {
           align-items: center;
   position: relative;
   width: 100%;
-  min-height: 700px;
+  min-height: 500px;
+  max-height: 700px;
   background-color: rgba(220, 235, 245, 0.2) !important;
   -webkit-background-size: cover !important;
           background-size: cover !important;
@@ -1820,6 +1821,12 @@ table tr:hover {
   line-height: 1.3;
   color: #ffffff;
   text-shadow: 0px 1px 1px rgba(51, 51, 51, 0.1);
+}
+
+.page-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 /* 11. ========== Page Tags Styles ========== */
@@ -1933,7 +1940,7 @@ table tr:hover {
 
 .form .form-group .form-btn {
   font-weight: 700;
-  background-color: #0078d9;
+  background-color: #000000;
   color: #ffffff;
   -webkit-border-radius: 3px;
           border-radius: 3px;

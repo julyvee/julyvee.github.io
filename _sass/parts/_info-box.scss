@@ -24,7 +24,7 @@
       text-align: center;
       line-height: 60px;
       &:hover {
-        background-color: $blue-transparency;
+        background-color: $black-transparency;
       }
     }
     a, span {
@@ -32,7 +32,7 @@
       color: $black;
       transition: all 0.2s ease;
       &:hover {
-        color: $blue;
+        color: $black;
       }
     }
     span {
@@ -80,10 +80,10 @@
   outline: none;
   cursor: pointer;
   color: $white;
-  background-color: $blue;
+  background-color: $black;
   transition: all 0.3s ease-in-out;
   &:hover {
-    background-color: darken($blue, 15%);
+    background-color: darken($black, 15%);
   }
 }
 

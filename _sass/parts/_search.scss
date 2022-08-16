@@ -35,7 +35,7 @@
   input[type="text"] {
     font-size: 14px;
     color: $white;
-    background-color: $blue;
+    background-color: $black;
     border: none;
   }
   ::placeholder {
@@ -73,12 +73,12 @@
   top: 50%;
   right: 3px;
   transform: translateY(-50%);
-  background-color: darken($blue, 10%);
+  background-color: darken($black, 10%);
   transition: all 0.3s ease-in-out;
   color: $white;
   cursor: pointer;
   &:hover {
-    background-color: darken($blue, 15%);
+    background-color: darken($black, 15%);
   }
 }
 

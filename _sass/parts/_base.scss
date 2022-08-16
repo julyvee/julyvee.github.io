@@ -229,16 +229,16 @@ table tr:hover {
   line-height: 14px;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid $blue;
+  border: 1px solid $black;
   border-radius: 0;
   background-color: transparent;
-  color: $blue;
+  color: $black;
   outline: none;
   cursor: pointer;
   transition: all 0.2s ease;
   
   &:hover {
-    background-color: $blue;
+    background-color: $black;
     color: $white;
   }
 
@@ -269,11 +269,11 @@ table tr:hover {
 }
 
 ::-moz-selection {
-  background: $blue-highlighted;
+  background: $black-highlighted;
   color: #ffffff;
 }
 
 ::selection {
-  background: $blue-highlighted;
+  background: $black-highlighted;
   color: #ffffff;
 }
