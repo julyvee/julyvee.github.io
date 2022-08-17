@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="post-header" style="background: url({{"/images/pages/" | prepend: site.baseurl | append : page.img}})" role="region" aria-label="Banner">
+<div class="post-header" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.6) 90%), url({{"/images/pages/" | prepend: site.baseurl | append : page.img}})" role="region" aria-label="Banner">
   <div class="post-header-info">
     <h1 class="post-title">{{ page.title | escape }}</h1>
     <div class="post-meta">
@@ -116,7 +116,7 @@ layout: default
       {% endif %}
     </div>
 
-    <div class="page-navigation clearfix">
+    <div class="page-navigation clearfix" role="navigation">
       {% if page.previous.url %}
       <a class="prev-page" href="{{page.previous.url}}"><i class="fa fa-angle-left" aria-hidden="true"></i><span>{{page.previous.title}}</span></a>
       {% endif %}
