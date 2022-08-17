@@ -4,6 +4,7 @@ title:  "4 Dos And Don'ts For Efficient Unit Testing"
 date:   2022-08-17 15:00:00 +0200
 img: 1.jpg
 tags: [development,testing]
+description: "Adhering to these principles will save you time while writing your tests and make them more meaningful."
 ---
 Unit testing is an important part of the software development lifecycle since it ensures that your code works as expected and that future changes don’t break existing features. When writing unit tests, we want to write as many as necessary to cover all the important logic in the code but at the same time write as little as possible to minimize dependencies and keep the tests maintainable. To achieve efficient unit testing, here are some Dos and Don’ts to consider.
 
