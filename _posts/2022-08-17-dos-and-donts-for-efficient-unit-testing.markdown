@@ -23,8 +23,10 @@ Instead, use mocks to inject a fake object which takes the place of the real one
 
 {% highlight cs %}
 var mockObject = new Mock<ApiClient>();
-mockObject.Setup(x => x.getName()).Returns(“Will Smith”);
+mockObject.Setup(x => x.getName()).Returns("Will Smith");
 {% endhighlight %}
+
+Instead of a mock, it is also possible to use a fake, which is an object with a working implementation that takes shortcuts for testing purposes, like having hard coded return values. In this example, a fake api client wouldn't actually call the api and instead always return "Will Smith". Setting up a fake takes more time, but doesn't require a framework like mocks do. Depending on your exact testing scenario a fake might be more suitable.
 
 # 2. Dependency Injection
 
@@ -167,11 +169,13 @@ This makes the test more explicit since it shows which parts of the logic you ca
 # Conclusion
 
 To make your unit tests more efficient, keep a few principles in mind:
+
 1.	Mock any logic outside of your testing scope
 2.	Use dependency injection to make objects easily mockable
 3.	Make assertions on your logic, not mock setups
 4.	Use callbacks to validate complex parameters
-Adhering to these principles will save you time while writing your tests and make them more meaningful. An all-around win!
+
+Of course there might be scenarios in which some of these concepts don't apply. But in general, adhering to these principles will save you time while writing your tests and make them more meaningful. An all-around win! 
 
 # Supporting Information
 
