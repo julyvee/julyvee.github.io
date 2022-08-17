@@ -4,8 +4,11 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
+
+<main aria-label="Banner">
 {% include hero.html %}
 {% include info-box.html %}
+</main>
 
 {% if paginator.page %}
   {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
@@ -16,7 +19,7 @@ layout: default
 {% endif %}
 
 <a id="content"></a>
-<div class="content-wrap">
+<div class="content-wrap" role="region" aria-label="Latest blog posts overview">
   <div class="wrapper" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
   {% for post in site.posts limit:site.paginate offset:offset %}
    {% assign author = site.authors[post.author] %}
