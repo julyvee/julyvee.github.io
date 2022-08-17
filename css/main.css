@@ -1268,6 +1268,10 @@ table tr:hover {
   color: #bd081c;
 }
 
+.post-share .share-linkedin:hover {
+  color: #0077B5;
+}
+
 /* 6. ========== Post Page Styles ========== */
 
 .content-box {
@@ -1403,6 +1407,10 @@ table tr:hover {
 
 .post-footer .post-footer-list li a.post-pinterest {
   color: #bd081c;
+}
+
+.post-footer .post-footer-list li a.post-linkedin {
+  color: #0077B5;
 }
 
 .post-footer .post-tag {

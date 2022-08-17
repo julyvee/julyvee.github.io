@@ -31,7 +31,7 @@ If you don’t keep testability in mind from the beginning, once you start writi
 
 ## Don’t
 
-Don’t use `new` statements for objects you want to mock later such as clients, configurations, or other services your class uses. Example:
+Don’t use `new`-statements for objects you want to mock later such as clients, configurations, or other services your class uses. Example:
 
 {% highlight cs %}
 var apiClient = new ApiClient(apiBaseUrl);
@@ -45,10 +45,9 @@ This code is not unit testable because you have no way of injecting a mock that 
 Use dependency injection so that you can inject a mock instead of a real object when testing. In this case, we’re going to inject mock api client.
 
 {% highlight cs %}
-public SomeClass(ApiClient apiClient)
-        {
-            this.apiClient = apiClient;
-        }
+public SomeClass(ApiClient apiClient) {
+   this.apiClient = apiClient;
+}
 {% endhighlight %}        
 
 The code from the above example now looks like this:
@@ -67,7 +66,7 @@ someObject= new SomeClass(mockApiClient.Object);
 mockApiClient.Setup(x => x.getCompanyName()).Returns("My Test Company");
 {% endhighlight %}
 
-Now you can easily set up the mock api client to return predefined test data and continue testing your class logic without connecting to a real blob storage. If you keep this in mind from the beginning, you’ll write great unit testable code and can start testing immediately without spending much time on refactoring. Very efficient!
+Now you can easily set up the mock api client to return predefined test data and continue testing your class logic without connecting to a real api. If you keep this in mind from the beginning, you’ll write great unit testable code and can start testing immediately without spending much time on refactoring. Very efficient!
 
 # 3. Assertions
 
@@ -135,7 +134,7 @@ Don’t spend a lot of time setting up a complex mock method call. Often you don
 
 ## Do
 
-Define only the most relevant parameters to differentiate between method calls and use an “any”-statement for the others. In this example, the method has a complex search options parameter which would take a lot of time to set up manually. Since we only care about 2 attributes in the search options, we use an “any”-statement and store the options in a callback for later assertions.
+Define only the most relevant parameters to differentiate between method calls and use an `any`-statement for the others. In this example, the method has a complex search options parameter which would take a lot of time to set up manually. Since we only care about 2 attributes in the search options, we use an `any`-statement and store the options in a callback for later assertions.
 
 {% highlight cs %}
 var actualOptions = new SearchOptions();
@@ -162,7 +161,7 @@ Assert.Equal(SearchMode.All, actualOptions.SearchMode);
 Assert.Equal(SearchQueryType.Full, actualOptions.QueryType);
 {% endhighlight %}
  
-This makes the test more explicit since it shows which part of the logic you care about. It’s also more efficient since you don’t have to spend a lot of time setting up the other.
+This makes the test more explicit since it shows which parts of the logic you care about. It’s also more efficient since you don’t have to spend a lot of time setting up the parameters for the mock.
 
 # Conclusion
 
