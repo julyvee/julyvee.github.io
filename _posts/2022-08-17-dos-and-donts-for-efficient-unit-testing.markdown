@@ -19,7 +19,7 @@ This is especially true for objects that will connect to other systems, such as 
 
 ## Do
 
-Instead, use mocks to inject a fake object which takes the place of the real one. On the mock, you can control what kind of data is returned for which method call and you are not dependent on the internal logic of other classes or any system availability. For example:
+Instead, use mocks to inject a mock object which takes the place of the real one. On the mock, you can control what kind of data is returned for which method call and you are not dependent on the internal logic of other classes or any system availability. For example:
 
 {% highlight cs %}
 var mockObject = new Mock<ApiClient>();
