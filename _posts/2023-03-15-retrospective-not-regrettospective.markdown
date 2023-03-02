@@ -73,21 +73,55 @@ Now that you know the reasoning behind every agenda item and why it shouldn't be
 
 ## Antipatterns
 
+Falling into retrospective antipatterns can severely affect the effectiveness of the retrospective process. These antipatterns occur when certain aspects of the process are ignored or not given adequate attention, which leads to a lack of engagement and meaningful improvement. In this post, we will examine some of the most common antipatterns and discuss ways to avoid them.
+
 ### Prime Directive Ignorance
 
-### Disillusioned Facilitator
-
-### In the Soup
+When team members start blaming individuals instead of circumstances, it creates a hostile blame culture, which is detrimental to the team's productivity and will cause people not to share their perspective in the retro, which would render the retro meaningless. Everyone on the team should keep the prime directive in mind and make a conscious effort to understand peoples skills, situation and resources instead of judging them for mistakes.
 
 ### Lack of Trust
 
+When team members don't trust each other or don't feel psychologically safe, they are not willing to share their opinions and ideas. This leads to important issues not being discussed, and the retrospective becoming a superficial chore. If you feel like there is a lack of trust in the team, focus on building relationships between participants before any retro is conducted. Also consider only inviting core team members to the retrospective, since their relationships are usually the strongest.
+
+### Disillusioned Facilitator
+
+A retrospective cannot be successful if the facilitator doesn't believe in the retrospective process or isn't motivated to lead the retro. When this happens, participants won't believe in it either, which leads to lack of sharing and unfocused discussions. Always choose a facilitator who is motivated to lead the retrospective and give them enough time to prepare.
+
+The facilitator might also be scared of judgement if they feel like they are the only one who believes in the retro. Make sure the team understands the importance of the retrospective and the reasoning behind the agenda items and activities.
+
+### In the Soup
+
+Being stuck "in the soup" means that the team spends lots of time discussing things they cannot control and comes up with action points for someone outside of the team to implement. These actions are unlikely to ever be implemented and the same issues will crop up repeatedly in the retro. This leads to the team getting frustrated with the lack of results and no meaningful improvement. To avoid this, the facilitator can make the amount of control explicit with a retrospective activity and focus the discussion on things that are within the team's scope.
+
 ### Negative Team
+
+When the team is always focused on the negatives, they get depressed about small things, lose faith in the retrospective, and become demotivated. To make the retro more positive, the facilitator can include positive data items in the discussion or use positive ice breakers. If the negativity is overwhelming, conducting a positivity retro can help to break the cycle.
 
 ### Wheel of Fortune
 
+It is common for teams trying to save time by skipping cause analysis in the retro. Jumping directly from data to solutions is tempting, but generating actions based on symptoms instead of root causes can lead to ineffective actions or even make the problems worse.
+
+Here's an example: Imagine the team has identified lack of pair programming as a problem so they decide to schedule pair programming sessions explicitly. This might work if the cause is that people get lost in daily work and forget to invite team members to pair programm. But if the cause is a lack of trust between team members, setting up sessions explicitly might even make things worse by wasting time and frustrating the team. Instead a more effective action would address the lack of trust, for example by hosting a team event to strengthen relationships.
+
 ### Unfruitful Democracy
 
+Democracy seems to be the fairest and easiest way to make decisions during the retro. Which items should we discuss? The ones which the most team members are interested in. Which actions should we commit to? The ones which the most team members want to implement. Quick, effective and fair, right? Not always.
+
+There are some downsides to democracy that you should consider. One team member might have a very strong opinion on an action item. Even if they are outvoted by democracy, they won't be committed to implementing the action item and in the worst case they might even try to actively sabotage it make sure it's not implemented. If this happens, not only is the time trying to implement the action wasted, it also creates distrust in team. In other cases, a minority of team members might be more affected by a certain action than others, but the majority are the ones driving the decision which can lead to ineffective actions and frustration for those who are most affected. Especially when deciding which topics to discuss, if you always go by majority vote, the problems of the minority stay unaddressed which means obstacles to their productivity are not removed, causing low output and demotivation.
+
+Other options for decision making are:
+
+- Dictatorship: One person decides. This could be the facilitator, the manager or a particularly affected team member.
+- Consensus: Everyone has to agree.
+- Consent: The majority decides, but the decision is only valid if the other team members consent to the decision.
+
+Evaluate the best way to make a decision based on the situation and make sure to get feedback and commitment from everyone before finalizing a decision.
+
 ### Disregard for Preparation
+
+A successful retrospective requires preparation, such as preparing a proper agenda, theme and activities. But it also means sending access to any tools needed beforehand and reminding people of the retrospective and any camera policies. If preparation is disregarded, people often show up late, lose valuable time on solving technical issues and are not ready to turn on their camera during the ice breaker. Having no clear agenda and activities leads to the retro being unfocused and often not returning meaninful results.
+
+The facilitator should be given enough time to prepare the retro properly and send out the necessary reminders. Participants on the other hand should know about the importance of the retro and be committed to showing up on time and testing their tool access and audio setup beforehand.
 
 ## Focus and Participation
 
