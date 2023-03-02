@@ -4,7 +4,7 @@ title:  "Hold Retrospectives, Not Regrettospectives"
 date:   2023-03-15 15:00:00 +0200
 img: 2.jpg
 tags: [retrospective,scrum,agile]
-description: "How to make your retrospectives more meaningful."
+description: "How to make your agile retrospectives more meaningful."
 ---
 
 Retrospectives are an essential part of the agile development process. They provide teams with a valuable opportunity to reflect on their progress, identify areas for improvement, and make adjustments to their approach. However, too often these retrospectives can feel like a box-ticking exercise, rather than a meaningful process that drives real change. But what is a meaningful retrospective? A meaningful retrospective outputs effective action items that will actually be implemented and enable everyone in the team to do their best work. This blog post presents some theory and tips to make your retros more meaningful. Follow these to make sure your retrospective doesn't turn into a regrettospective!
@@ -21,7 +21,9 @@ The prime directive is the foundational prerequisite for a successful agile retr
 
 ### Psychological Safety
 
-Adding on to the prime directive in a more general sense, psychological safety refers to a team culture where team members feel free to share positive and negative feedback without fear of retribution for mistakes or criticism. This creates a safe space where everyone is encouraged to express their thoughts, which ultimately leads to more creative and innovative solutions. Teams should recognize that it is okay to fail, because it provides an opportunity for learning. If psychological safety is not established, people will not share their real opinions or mistakes, so no significant improvement can be made. The retrospective would become a meaningless chore. One important aspect of psychological safety is the presence of managers in the retro. The presence of a manager can improve the outcome of the retro because they have unique insights and capabilities to drive change, but it can also be a blocker to psychological safety because people are afraid to admit to mistakes in front of their boss. Consider on an individual basis whether a manager's presence in the retro is beneficial or detrimental and don't be afraid to conduct a retrospective without them.
+Adding on to the prime directive in a more general sense, psychological safety refers to a team culture where team members feel free to share positive and negative feedback without fear of retribution for mistakes or criticism. This creates a safe space where everyone is encouraged to express their thoughts, which ultimately leads to more creative and innovative solutions. Teams should recognize that it is okay to fail, because it provides an opportunity for learning. If psychological safety is not established, people will not share their real opinions or mistakes, so no significant improvement can be made. The retrospective would become a meaningless chore.
+
+One important aspect of psychological safety is the presence of managers in the retro. The presence of a manager can improve the outcome of the retro because they have unique insights and capabilities to drive change, but it can also be a blocker to psychological safety because people are afraid to admit to mistakes in front of their boss. Consider on an individual basis whether a manager's presence in the retro is beneficial or detrimental and don't be afraid to conduct a retrospective without them.
 
 ### Open to Discussing Causes
 
@@ -33,7 +35,9 @@ The team has to believe in the retro and its ability to drive continuous improve
 
 ### Dedication
 
-The team must be dedicated to the retrospective process. Teams should take sufficient time to conduct the retrospective and actively participate in the process in order to make the most out of every agenda item (see section below). Additionally, team members should be dedicated to implementing the action items that are identified during the retrospective. Explaning the reasoning behind the different agenda items and addressing the other culture prerequisites can drastically improve dedication. Finally, teams should revisit past action items periodically to remind themselves of their commitment and see the progress that has already been made. Explicitly stating what has been improved by past retrospectives is motivating and makes the retrospective more meaningful, instead of it feeling like an obligatory ceremony to get through.
+The team must be dedicated to the retrospective process. Teams should take sufficient time to conduct the retrospective and actively participate in the process in order to make the most out of every agenda item (see section below). Additionally, team members should be dedicated to implementing the action items that are identified during the retrospective. Explaning the reasoning behind the different agenda items and addressing the other culture prerequisites can drastically improve dedication.
+
+Finally, teams should revisit past action items periodically to remind themselves of their commitment and see the progress that has already been made. Explicitly stating what has been improved by past retrospectives is motivating and makes the retrospective more meaningful, instead of it feeling like an obligatory ceremony to get through.
 
 ## Retro Agenda
 
@@ -41,7 +45,7 @@ The success of a retrospective largely depends on how it is conducted. The typic
 
 ### Set the Stage
 
-The first item on the agenda is setting the stage. This involves an icebreaker or reflection exercise, reviewing past action items, presenting the retro format and theme, and setting the time frame and agenda. The ice breaker question is usually positive and non-controversial (e.g. "What was your favorite lunch this week?"), which makes it easier for everyone to participate. This creates an optimistic mood for the retrospective. By including everyone from the beginning, it becomes more likely that they will share later. Additionally, the facilitator can use this item to align the retro with the team's goals. In an online retrospective, this is a good moment to encourage people to turn on the camera so they will feel more connected.
+The first item on the agenda is setting the stage. This involves an icebreaker or reflection exercise, reviewing past action items, presenting the retro format and theme, and setting the time frame and agenda. The ice breaker question is usually positive and non-controversial (e.g. "What was your favorite lunch this week?"), which creates an optimistic mood for the retrospective and makes it easier for everyone to participate. By including everyone from the beginning, it becomes more likely that they will share later. Additionally, the facilitator can use this item to align the retro with the team's goals. In an online retrospective, this is a good moment to encourage people to turn on the camera so they will feel more connected.
 
 Skipping this item can cause the retro to fail. When team members are not given the opportunity to warm up and connect, they may not feel comfortable sharing their thoughts and opinions later on. It is also essential to establish a clear agenda and time frame to ensure that the retro remains focused and productive.
 
@@ -51,7 +55,7 @@ In "Gather Data", the team talks about what happened in the sprint, whether good
 
 ### Generate Insights
 
-The real star of the retrospective is generating insights, which means going into cause analysis and deep discussion about a few items. This agenda item is important to understand how systems and processes affect the team and which areas the team has control over, in order to create effective actions. The facilitator should keep the discussion focused on causes, not solutions (yet), and take sufficient time to get everyone's perspective. Also remember to discuss the root causes of positive data items in order to further leverage the team's strengths.
+The real star of the retrospective is generating insights, which means going into cause analysis and deep discussion about a few data items. This agenda item is important to understand how systems and processes affect the team and which areas the team has control over, in order to create effective actions. The facilitator should keep the discussion focused on causes, not solutions (yet), and take sufficient time to get everyone's perspective. Also remember to discuss the root causes of positive data items in order to further leverage the team's strengths.
 
 Skipping this item can cause the retro to become unproductive. Without a deep understanding of the causes of issues, the team may end up focusing on symptoms rather than root causes. This can lead to ineffective action items, frustration and the feeling that nothing is improving (see "Wheel of Fortune" antipattern below).
 
