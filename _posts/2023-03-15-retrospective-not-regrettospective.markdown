@@ -9,6 +9,45 @@ description: "How to make your agile retrospectives more meaningful."
 
 Retrospectives are an essential part of the agile development process. They provide teams with a valuable opportunity to reflect on their progress, identify areas for improvement, and make adjustments to their approach. However, too often these retrospectives can feel like a box-ticking exercise, rather than a meaningful process that drives real change. But what is a meaningful retrospective? A meaningful retrospective outputs effective action items that will actually be implemented and enable everyone in the team to do their best work. This blog post presents some theory and tips to make your retros more meaningful. Follow these to make sure your retrospective doesn't turn into a regrettospective!
 
+## Table of Contents
+
+1. [Culture Prerequisites](#culture-prerequisites)
+    1. [Prime Directive](#prime-directive)
+    2. [Psychological Saftey](#psychological-safety)
+    3. [Open to Discussing Causes](#open-to-discussing-causes)
+    4. [Optimism](#optimism)
+    5. [Dedication](#dedication)
+2. [Retro Agenda Reasoning](#retro-agenda)
+    1. [Set the Stage](#set-the-stage)
+    2. [Gather Data](#gather-data)
+    3. [Generate Insights](#generate-insights)
+    4. [Decide What to Do](#decide-what-to-do)
+    5. [Closing the Retro](#closing-the-retro)
+    6. [Time Considerations](#time-considerations)
+3. [Retrospective Antipatterns](#antipatterns)
+    1. [Prime Directive Ignorance](#prime-directive-ignorance)
+    2. [Lack of Trust](#lack-of-trust)
+    3. [Disillusioned Facilitator](#disillusioned-facilitator)
+    4. [In the Soup](#in-the-soup)
+    5. [Negative Team](#negative-team)
+    6. [Wheel of Fortune](#wheel-of-fortune)
+    7. [Unfruitful Democracy](#unfruitful-democracy)
+    8. [Disregard for Preparation](#disregard-for-preparation)
+4. [Participation and Focus](#participation-and-focus)
+    1. [Ice Breaker](#ice-breaker)
+    2. [Being Inclusive](#being-inclusive)
+    3. [Time to Think](#time-to-think)
+    4. [Think-Pair-Share](#think-pair-share)
+    5. [Follow Up Exercises](#follow-up-exercises)
+    6. [Interactive Tools and Themes](#interactive-tools-and-themes)
+    7. [Breaks](#breaks)
+5. [Meaningful Outcomes](#meaningful-outcomes)
+    1. [Control](#control)
+    2. [Commitment](#commitment)
+    3. [Experiments](#experiments)
+    4. [Follow Up](#follow-up)
+6. [Summary](#summary)
+
 ## Culture Prerequisites
 
 To conduct successful retrospectives, certain cultural prerequisites must be present within the team. Most of them have a lot of synergies with each other so establishing one will help you establishing the others more easily. They also go hand in hand with the reasoning behind the different retro agenda items (see "Retro Agenda" section below). In the end, the goal is always the same: To conduct a retro that is worth the time and effort that goes into it. To achieve this, these five key prerequisites should be established.
@@ -71,7 +110,7 @@ The final item on the agenda is closing the retro. This is often skipped to save
 
 Skipping this item can lead to a lack of motivation to implement action items or improve in the future, so consider taking the time to close the retro properly.
 
-### Time
+### Time Considerations
 
 Now that you know the reasoning behind every agenda item and why it shouldn't be skipped, it is clear that the team must allocate a sufficient amount of time to conduct the retro. Cutting discussions too short or skipping agenda items can lead to ineffective retros, while investing just a bit more time can improve the outcome drastically. When scheduling the retro, keep the size of the team and the length of the sprint in mind. Of course, you won't be able to discuss all data items but there should be enough time to do a cause analysis of the most important ones and to have everyone share their thoughts. If you feel like your team's retros are ineffective, few team members get the chance to participate in discussions or you find yourself frequently skipping agenda items, definitely consider making the next retro longer to get the most benefit out of every agenda item. If on the other hand you're going through all agenda items in record time due to lack of active participation, check your culture prerequisites and try to find out why people don't want to share their perspectives.
 
@@ -135,9 +174,9 @@ Many teams struggle with lack of participation and focus during the retrospectiv
 
 An ice breaker at the beginning of the retro is a magnificent way to increase participation later on. Since ice breakers are positive and non-controversial, they can help people relax and feel more comfortable participating. Everyone gets the opportunity to share something, and there is no wrong answer. It's also a good opportunity to turn on the camera and connect with your team. If people feel positive and connected, they are much more likely to share their thoughts during the actual retro.
 
-### Inclusivity
+### Being Inclusive
 
-People are different, this is a fact of life. At the same time it is natural for humans to project ourselves onto others, and judge other people more harshly for their perceived shortcomings than we judge ourselves: "If this activity is fun for me, it must be fun for you too, right?" - "This person not participating means they are lazy, but when I'm not participating, it's for a good reason, because I'm distracted by personal problems, I have construction noise in my home or I'm not getting an opportunity to share because other's always jump in first and I don't want to interrupt" -  "This is the way we always do retros and you have to find a way to make your voice heard.".
+People are different, this is a fact of life. At the same time it is natural for humans to project ourselves onto others, and judge other people more harshly for their perceived shortcomings than we judge ourselves: "If this activity is fun for me, it must be fun for you too, right?" - "This person not participating means they are lazy, but when I'm not participating, it's for a good reason, because I'm distracted by personal problems, I have construction noise in my home or I'm not getting an opportunity to share because other's always jump in first and I don't want to interrupt" -  "This is the way we always do retros and you have to find a way to make your voice heard."
 
 Especially the last one is a fallacy, because it's your goal as the facilitator to gather everyone's perspective, so you should enable and encourage them to share. Blaming and judging a retro participant won't make it easier for them to participate and it won't make your retros better. The sooner you accept that people are naturally different, the sooner you can adapt your retrospectives to be more inclusive and get everyone's input instead of forcing people to adhere to your personal style in order to participate properly. This will make your retro results more meaningful and sustainable.
 
@@ -145,7 +184,7 @@ A good example of an inherent trait which affects participation in retros is "Ac
 
 Another difference in thinking patterns is "Global Thinking vs. Sequential Thinking". Global thinkers prefer open prompts such as "What can we improve in the next sprint?", while sequential thinkers do better with specific prompts such as "How can we improve our code quality during the next sprint?". Keep this in mind when designing your activities, mix up different kind of prompts to make it more likely that everyone will share.
 
-In retrospectives, different types of topics can come up, including how people feel in the team setting and if they are properly enabled to do their work. Some people have a hard time talking about feelings, perhaps due to their upbringing, personality or experiences. Metaphoric activities and reframing questions can help create distance and make it easier for everyone to share, for example instead of asking "How did you feel during the last sprint?", the question could be reframed as "Describe the last sprint as a weather forecast.".
+In retrospectives, different types of topics can come up, including how people feel in the team setting and if they are properly enabled to do their work. Some people have a hard time talking about feelings, perhaps due to their upbringing, personality or experiences. Metaphoric activities and reframing questions can help create distance and make it easier for everyone to share, for example instead of asking "How did you feel during the last sprint?", the question could be reframed as "Describe the last sprint as a weather forecast."
 
 Retrospectives often involve open discussions with the whole team. Some people might be more comfortable than others sharing in a large group, again there can be a multitude of reasons for this. Always conducting retros that naturally favor extroverted team members will make you miss out on other team member's thoughts and ideas. To level the playing field you can, for example, incorporate think-pair-share or round-robin style discussions in your retros.
 
@@ -173,18 +212,24 @@ Finally, when the retrospective is long, taking frequent breaks can help increas
 
 ## Meaningful Outcomes
 
+Retrospectives without meaningful outcomes can quickly become a frustrating experience. The action items generated during retrospectives must be relevant and the team must be motivated to implement; otherwise, they won't make a significant impact. Here are some tips for making the outcomes of your retrospective more meaningful.
+
 ### Control
+
+One crucial aspect to consider is the amount of control you have over an action item. Focus on things your team can control, instead of trying to change others. Action items for others are rarely implemented, which can create feelings of helplessness. By focusing on what you can control, you'll be more empowered and more likely to drive real change.
 
 ### Commitment
 
+Commit to only 1-3 actions for the next sprint. Retrospective actions naturally have a lower priority than core business work, so it's essential not to become overwhelmed with too many actions. It can also help to periodically remind the team of committed actions during the sprint, which again is easier when there are less of them. Avoiding frustration with too many actions will help you stay motivated and focused on your commitments.
+
 ### Experiments
+
+There can be a lot of pressure to implment an action perfectly, and while you should always aim at forming habits, try calling them "experiments" at first. Emphasize that it's important to try your best but that it's okay if something doesn't work.  This will help to take the pressure off and encourage more experimentation and learning, making it more likely for an action to be implemented. Additionally, establish habits by encouraging teams to repeat actions that have been successful in the past.
 
 ### Follow Up
 
+Simply conducting retrospectives isn't enough to make meaningful progress. To truly make the most out of your retrospectives, follow up on the outcomes periodically. You should discuss why they did or didn't work and evaluate whether the desired affect was achieved. This can help the team gain valuable insights on their strengths or obstacles that are preventing progress. It's also motivating to see when an action was implemented successfully. Celebrating successes can increase the team's confidence in the retro and create an optimistic environment.
+
 ## Summary
 
-- Culture Prerequisites
-- Reasoning behind retro agenda items
-- Antipatterns
-- Focus and participation
-- Meaningful outcomes
+Making retrospectives more meaningful is a complex task, you can work towards it using a multitude of strategies including the ones described in this post. Your goal is to gather *everyone's* thoughts and ideas, which will make the actions you decide on more meaningful and more likely to be implemented. Create an environment that is inclusive of all personality types and thinking patterns and encourages everyone to share by following the prime directive, having a motivated facilitator who has sufficient time to prepare, using ice breakers, and incorporating different types of activities and discussion modes. Participation and focus can also be increased by using fun tools, taking frequent breaks or conducting themed retros. Use the typical retro agenda items to your advantage, every one of them has unique benefits which will improve your retro and its outcomes. Especially "Gathering Insights" should not be skipped, to make sure that your action items are effective. Avoid common antipatterns, for example by focusing on things your team can control, also taking time to analyze the positives, and evaluating whether democracy is always the best way to make a decision in a retro. Finally, there are some additional ways to make retrospective outcomes more meaningful, by choosing action items that are relevant and motivating. A lot of these tips have synergies with each other and by implementing these strategies, teams can create a more effective and engaging retrospective experience. So remember: Hold retrospectives, not regrettospectives!
