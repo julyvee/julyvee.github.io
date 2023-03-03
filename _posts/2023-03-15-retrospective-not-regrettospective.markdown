@@ -12,40 +12,10 @@ Retrospectives are an essential part of the agile development process. They prov
 ## Table of Contents
 
 1. [Culture Prerequisites](#culture-prerequisites)
-    1. [Prime Directive](#prime-directive)
-    2. [Psychological Saftey](#psychological-safety)
-    3. [Open to Discussing Causes](#open-to-discussing-causes)
-    4. [Optimism](#optimism)
-    5. [Dedication](#dedication)
 2. [Retro Agenda Reasoning](#retro-agenda)
-    1. [Set the Stage](#set-the-stage)
-    2. [Gather Data](#gather-data)
-    3. [Generate Insights](#generate-insights)
-    4. [Decide What to Do](#decide-what-to-do)
-    5. [Closing the Retro](#closing-the-retro)
-    6. [Time Considerations](#time-considerations)
 3. [Retrospective Antipatterns](#antipatterns)
-    1. [Prime Directive Ignorance](#prime-directive-ignorance)
-    2. [Lack of Trust](#lack-of-trust)
-    3. [Disillusioned Facilitator](#disillusioned-facilitator)
-    4. [In the Soup](#in-the-soup)
-    5. [Negative Team](#negative-team)
-    6. [Wheel of Fortune](#wheel-of-fortune)
-    7. [Unfruitful Democracy](#unfruitful-democracy)
-    8. [Disregard for Preparation](#disregard-for-preparation)
 4. [Participation and Focus](#participation-and-focus)
-    1. [Ice Breaker](#ice-breaker)
-    2. [Being Inclusive](#being-inclusive)
-    3. [Time to Think](#time-to-think)
-    4. [Think-Pair-Share](#think-pair-share)
-    5. [Follow Up Exercises](#follow-up-exercises)
-    6. [Interactive Tools and Themes](#interactive-tools-and-themes)
-    7. [Breaks](#breaks)
 5. [Meaningful Outcomes](#meaningful-outcomes)
-    1. [Control](#control)
-    2. [Commitment](#commitment)
-    3. [Experiments](#experiments)
-    4. [Follow Up](#follow-up)
 6. [Summary](#summary)
 
 ## Culture Prerequisites
@@ -54,9 +24,11 @@ To conduct successful retrospectives, certain cultural prerequisites must be pre
 
 ### Prime Directive
 
+The prime directive states:
+
 > *“We must believe that everyone did the best job they could, given the information known at the time, their skills and situation and resources available.”*
 
-The prime directive is the foundational prerequisite for a successful agile retrospective. Believing in this directive means that the team understands that everyone has different skills, knowledge, and resources, and that no one is perfect. The team should focus on identifying causes and circumstances that led to mistakes, rather than blaming individuals. This leads to a trust culture where people feel free to share their opinions openly and transparently remove blockers to progress.
+It's the foundational prerequisite for a successful agile retrospective. Believing in this directive means that the team understands that everyone has different skills, knowledge, and resources, and that no one is perfect. The team should focus on identifying causes and circumstances that led to mistakes, rather than blaming individuals. This leads to a trust culture where people feel free to share their opinions openly and transparently remove blockers to progress.
 
 ### Psychological Safety
 
