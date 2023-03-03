@@ -184,11 +184,11 @@ Finally, when the retrospective is long, taking frequent breaks can help increas
 
 ## Meaningful Outcomes
 
-Retrospectives without meaningful outcomes can quickly become a frustrating experience. The action items generated during retrospectives must be relevant and the team must be motivated to implement; otherwise, they won't make a significant impact. Here are some tips for making the outcomes of your retrospective more meaningful.
+Retrospectives without meaningful outcomes can quickly become a frustrating experience. The action items generated during retrospectives must be relevant and the team must be motivated to implement them; otherwise, they won't make a significant impact. Here are some tips for making the outcomes of your retrospective more meaningful.
 
 ### Control
 
-One crucial aspect to consider is the amount of control you have over an action item. Focus on things your team can control, instead of trying to change others. Action items for others are rarely implemented, which can create feelings of helplessness. By focusing on what you can control, you'll be more empowered and more likely to drive real change.
+One crucial aspect to consider is the amount of control you have over a topic. Focus on things your team can control, instead of trying to change others. Action items for others are rarely implemented, which can create feelings of helplessness. By focusing on what you can control, you'll be more empowered and more likely to drive real change.
 
 ### Commitment
 
