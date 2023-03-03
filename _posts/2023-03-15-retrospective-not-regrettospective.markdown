@@ -127,21 +127,49 @@ A successful retrospective requires preparation, such as preparing a proper agen
 
 The facilitator should be given enough time to prepare the retro properly and send out the necessary reminders. Participants on the other hand should know about the importance of the retro and be committed to showing up on time and testing their tool access and audio setup beforehand.
 
-## Focus and Participation
+## Participation and Focus
+
+Many teams struggle with lack of participation and focus during the retrospective. Often, it's the same people who are sharing and you're just not getting everyone's input. There can be many different reasons for this and while it's easy to blame the participants and accuse them of being unmotivated, the truth is that a typical retrospective naturally favors certain personality types and thinking patterns, which not everyone has. That's no one's fault but as a facilitator it is your responsibility to conduct a retro that is inclusive and makes it easy to gather *everyone's* perspective, which leads to more meaningful outcomes and makes it more likely for action items to be implemented. Another way to increase participation is making the retrospective more interesting and avoiding distractions. Here are some things you can do to achieve inclusive, engaging and productive retrospectives.
 
 ### Ice Breaker
 
-### Follow Up Exercises
+An ice breaker at the beginning of the retro is a magnificent way to increase participation later on. Since ice breakers are positive and non-controversial, they can help people relax and feel more comfortable participating. Everyone gets the opportunity to share something, and there is no wrong answer. It's also a good opportunity to turn on the camera and connect with your team. If people feel positive and connected, they are much more likely to share their thoughts during the actual retro.
 
-### Think-Pair-Share
+### Inclusivity
 
-### Different Thinking Patterns
+People are different, this is a fact of life. At the same time it is natural for humans to project ourselves onto others, and judge other people more harshly for their perceived shortcomings than we judge ourselves: "If this activity is fun for me, it must be fun for you too, right?" - "This person not participating means they are lazy, but when I'm not participating, it's for a good reason, because I'm distracted by personal problems, I have construction noise in my home or I'm not getting an opportunity to share because other's always jump in first and I don't want to interrupt" -  "This is the way we always do retros and you have to find a way to make your voice heard.".
+
+Especially the last one is a fallacy, because it's your goal as the facilitator to gather everyone's perspective, so you should enable and encourage them to share. Blaming and judging a retro participant won't make it easier for them to participate and it won't make your retros better. The sooner you accept that people are naturally different, the sooner you can adapt your retrospectives to be more inclusive and get everyone's input instead of forcing people to adhere to your personal style in order to participate properly. This will make your retro results more meaningful and sustainable.
+
+A good example of an inherent trait which affects participation in retros is "Active Thinking vs. Reflective Thinking". Active thinkers start talking quickly and think while they talk, whereas reflective thinks prefer to gather and order their thoughts before they start talking. None of these is better than the other, but asking an open question in a retrospective discussion naturally favors active thinkers to speak first and due to time constraints you are much less likely to hear a reflective thinker's perspective. There are many ways to make your retrospective more inclusive towards both thinking patterns, such as explicit thinking time or think-pair-share activities.
+
+Another difference in thinking patterns is "Global Thinking vs. Sequential Thinking". Global thinkers prefer open prompts such as "What can we improve in the next sprint?", while sequential thinkers do better with specific prompts such as "How can we improve our code quality during the next sprint?". Keep this in mind when designing your activities, mix up different kind of prompts to make it more likely that everyone will share.
+
+In retrospectives, different types of topics can come up, including how people feel in the team setting and if they are properly enabled to do their work. Some people have a hard time talking about feelings, perhaps due to their upbringing, personality or experiences. Metaphoric activities and reframing questions can help create distance and make it easier for everyone to share, for example instead of asking "How did you feel during the last sprint?", the question could be reframed as "Describe the last sprint as a weather forecast.".
+
+Retrospectives often involve open discussions with the whole team. Some people might be more comfortable than others sharing in a large group, again there can be a multitude of reasons for this. Always conducting retros that naturally favor extroverted team members will make you miss out on other team member's thoughts and ideas. To level the playing field you can, for example, incorporate think-pair-share or round-robin style discussions in your retros.
+
+There are many more examples of personality traits, thinking patterns or learned behavior that affect how people act in a retrospective. It is important to open your mind towards other perspectives and experiences and incorporate different types of activities, making it easier for people to participate. This will drastically improve your retrospectives and create more meaningful outcomes.
 
 ### Time to Think
 
-### Interactive Tools
+This is an easy way to be inclusive towards active as well as reflective thinkers. When asking a question where you expect an open discussion, give people explicit time to think before the discussion starts. For example, you could say, "Here's the question, think about this for 1 minute, then we'll discuss.".
+
+### Think-Pair-Share
+
+[Think-pair-share](https://en.wikipedia.org/wiki/Think-pair-share) is a great way to include active thinkers, reflective thinkers, introverted and extroverted people in the discussion. You can use this discussion type at any stage of the retrospective. It makes it easier for people to share and gives everyone a chance to give their input. Of course it can require more time than a simple open discussion but this just underlines how important it is to allocate a sufficient amount of time to conduct the retro.
+
+### Follow Up Exercises
+
+When people are done early on timed exercises, they might get distracted. Giving explicit follow-up activities (beforehand!) for people who are done early can help keep everyone engaged. For example, you could ask people to add +1's to other thoughts or identify groups of similar inputs.
+
+### Interactive Tools and Themes
+
+Using interactive tools and themes can also increase participation and make retrospectives more fun. Mural, Mentimeter, and Conceptboard are excellent examples of interactive and flexible tools that teams can use. Sometimes retrospective templates are available, which can help guide the conversation. Conducting a themed retro (e.g., all about Code Quality, Testing, Communication with other teams, etc.) can also be a fun way to switch things up. Avoid using the exact same activities in every retrospective as it can quickly become repetitive and robs you of opportunities to be more inclusive by trying different types of activities.
 
 ### Breaks
+
+Finally, when the retrospective is long, taking frequent breaks can help increase focus. Encourage your team to step away from their computer screens and take a quick break before coming back to the retrospective, refreshed and ready to participate.
 
 ## Meaningful Outcomes
 
