@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hold Retrospectives, Not Regrettospectives"
-date:   2023-03-15 15:00:00 +0200
+date:   2023-03-03 17:00:00 +0200
 img: 2.jpg
 tags: [retrospective,scrum,agile]
 description: "How to make your agile retrospectives more meaningful."
