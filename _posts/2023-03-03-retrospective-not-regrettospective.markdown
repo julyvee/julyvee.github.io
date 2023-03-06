@@ -4,7 +4,7 @@ title:  "Hold Retrospectives, Not Regrettospectives"
 date:   2023-03-03 17:00:00 +0200
 img: 2.jpg
 tags: [retrospective,scrum,agile]
-description: "How to make your agile retrospectives more meaningful."
+description: "Strategies to make your retrospectives more engaging and productive"
 ---
 
 Retrospectives are an essential part of the agile development process. They provide teams with a valuable opportunity to reflect on their progress, identify areas for improvement, and remove blockers to productivity. However, too often these retrospectives can feel like a box-ticking exercise, rather than a meaningful process that drives real change. A meaningful retrospective engages everyone in the team, outputs effective action items, that will actually be implemented, and enables people to do their best work. This blog post presents some theory and tips to help you conduct meaningful retrospectives instead of regrettospectives!
@@ -20,7 +20,7 @@ Retrospectives are an essential part of the agile development process. They prov
 
 ## Culture Prerequisites
 
-To conduct successful retrospectives, certain cultural prerequisites must be present within the team. Most of them have a lot of synergies with each other so establishing one will help you establishing the others more easily. They also go hand in hand with the reasoning behind the different retro agenda items (see "Retro Agenda" section below). In the end, the goal is always the same: To conduct a retro that is worth the time and effort that goes into it. To achieve this, these five key prerequisites should be established.
+To conduct successful retrospectives, certain cultural prerequisites must be present within the team. Most of them have a lot of synergies with each other so establishing one will help you establishing the others more easily. They also go hand in hand with the reasoning behind the different retro agenda items (see [Retro Agenda](#retro-agenda)). In the end, the goal is always the same: To conduct a retro that is worth the time and effort that goes into it. To achieve this, these five key prerequisites should be established.
 
 ### Prime Directive
 
@@ -68,7 +68,7 @@ In "Gather Data", the team talks about what happened in the sprint, whether good
 
 The real star of the retrospective is generating insights, which means going into cause analysis and deep discussion about a few data items. This agenda item is important to understand how systems and processes affect the team and which areas the team has control over, in order to create effective actions. The facilitator should keep the discussion focused on causes, not solutions (yet), and take sufficient time to get everyone's perspective. Also remember to discuss the root causes of positive data items in order to further leverage the team's strengths.
 
-Skipping this item can cause the retro to become unproductive. Without a deep understanding of the causes of issues, the team may end up focusing on symptoms rather than root causes. This can lead to ineffective action items, frustration and the feeling that nothing is improving (see "Wheel of Fortune" antipattern below).
+Skipping this item can cause the retro to become unproductive. Without a deep understanding of the causes of issues, the team may end up focusing on symptoms rather than root causes. This can lead to ineffective action items, frustration and the feeling that nothing is improving (see [Wheel of Fortune](#wheel-of-fortune)).
 
 ### Decide What to Do
 
@@ -134,7 +134,7 @@ Evaluate the best way to make a decision based on the situation and make sure to
 
 ### Disregard for Preparation
 
-A successful retrospective requires preparation, such as preparing a proper agenda, theme and activities. But it also means sending access to any tools needed beforehand and reminding people of the retrospective and any camera policies. If preparation is disregarded, people often show up late, lose valuable time on solving technical issues and are not ready to turn on their camera during the ice breaker. Having no clear agenda and activities leads to the retro being unfocused and often not returning meaninful results.
+A successful retrospective requires preparation, such as preparing a proper agenda, theme and activities. But it also means sending access to any tools needed beforehand and reminding people of the retrospective and any camera policies. If preparation is disregarded, people often show up late, lose valuable time on solving technical issues and are not ready to turn on their camera during the ice breaker. Having no clear agenda and activities leads to the retro being unfocused and often not returning meaningful results.
 
 The facilitator should be given enough time to prepare the retro properly and send out the necessary reminders. Participants on the other hand should know about the importance of the retro and be committed to showing up on time and testing their tool access and audio setup beforehand.
 
