@@ -2,21 +2,21 @@
 title: Julyvee Dev
 description: >- 
   Personal developer blog for Julia Valder, a software engineer at Microsoft in the 
-  Commercial Software Engineering Organization
+  Industry Solutions Engineering Organization
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://julyvee.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner Section
-hero: cse.jpg
+hero: ise.jpg
 hero-title: Julia Valder
 hero-description: >- 
   Software engineer at Microsoft in the 
-  Commercial Software Engineering Organization
+  Industry Solutions Engineering Organization
 
 # Author - Creator
 author-name: Julia Valder
 author-image: juliavalder.jpg
-about-author: Julia Valder is a software engineer at Microsoft in the Commercial Software Engineering Organization. 
+about-author: Julia Valder is a software engineer at Microsoft in the Industry Solutions Engineering Organization. 
 author-github: https://www.github.com/julyvee
 author-linkedin: https://linkedin.com/in/julia-valder
 
