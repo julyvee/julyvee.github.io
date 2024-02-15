@@ -18,14 +18,35 @@ Lorem ipsum
 
 ## The Problem
 
+Imagine you're developing an application with multiple components:
+
+- A data collector which collects data from various external systems and applies some sort of logic to filter, merge or transform the data
+- A Cosmos DB to which said data is saved
+- An API which can read the data from the Cosmos DB
+- A UI to display the data
+
+Note that I'm using the word external to describe systems that are outside of the scope of your application and are developed and maintained by someone else, even if that someone else is still within your company.
+
 [<img src="../images/posts/2024-02-16-data-mapping/basic_architecture.png" height="350" alt="Basic architecture from data collection to UI"/>](../images/posts/2024-02-16-data-mapping/basic_architecture.png)
+
+In a perfect world, these external systems have APIs which follow proper versioning protocol so you have ample warning and backwards compatability if something changes. However, during my career I have often found
+the reality to be different especially if you are working in a large company with different teams publishing APIs for internal use only (or not using APIs at all). In this environment, you have little to no control
+over the data schema of this external system's data and you might be surprised by unexpected changes. In the above architecture, even a miniscule change such as changing the name of an attribute in the data coming
+from external system A can result in a broken UI and logs full of exceptions. Depending on your implementation, even changes in attributes that you're not even using can cause this. If forcing the external systems
+to adhere to proper versioning is not an option (which is unfortunately often the case), how do you make your application more robust?
 
 ## The Solution
 
+To protect your application from unexpected data schema changes you can use data mapping. For data mapping you need a mapping specification which describes the desired data schema and where in the source data to
+take the values from. This way you decide what attributes are called, how they are nested, etc. You apply the mapping specification to your source data and the result will be the data in your desired format. All
+other parts of the application can now rely on this schema, and are shielded from any changes in the external systems.
+
+It's advisable to do this as early as possible to protect all parts of your application. In our example architecture, we're implementing the data mapping in the collector.
+
 [<img src="../images/posts/2024-02-16-data-mapping/data_collector.png" height="350" alt="Data mapping inside the data collector"/>](../images/posts/2024-02-16-data-mapping/data_collector.png)
 
-Another advantage is that now you have complete control over your data schema in only one location: your mapping file. All other components can rely on this schema and won't need to change unless you change
-the output schema.
+Another advantage is that now you have complete control over your data schema in only one location: your mapping file. If an external system changes its schema you need to only change the mapping file to take
+the source data from a different place, but you can keep the output schema intact, and the change doesn't have to be propagated throughout your application. Let's look at an example.
 
 Consider this example source data:
 
@@ -86,7 +107,7 @@ The result of applying this mapping to the above file would be:
 }
 ```
 
-However, even JMESPath has its limitations. For example, it cannot map items in a list without explicitly knowing the item index. And we might know a source attribute contains a list and
+However, even JMESPath has its limitations. For example, it cannot map objects in a list without explicitly knowing the item index. And we might know a source attribute contains a list and
 we want to map all list items in the same way but we don't know in advance how many there will be. To address this problem we are defining a convention which the mapping specification adheres
 to. If the value of an attribute is a list, the first item in the list will contain only the JMESPath expression for the source list. The second item will contain the mapping for each list item.
 In this case, the list item mapping is only relative to itself so you cannot map attributes from other parts of the data here. Here's the modified mapping file with the list mapping:
