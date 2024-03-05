@@ -25,15 +25,15 @@ Imagine you're developing an application with multiple components:
 - An API which can read the data from the Cosmos DB
 - A UI to display the data
 
-Note that I'm using the word external to describe systems that are outside of the scope of your application and are developed and maintained by someone else, even if that someone else is still within your company.
+Note that the word external is used here to describe systems that are outside of the scope of your application and are developed and maintained by someone else, even if that someone else is still within your company.
 
 [<img src="../images/posts/2024-02-16-data-mapping/basic_architecture.png" height="350" alt="Basic architecture from data collection to UI"/>](../images/posts/2024-02-16-data-mapping/basic_architecture.png)
 
-In a perfect world, these external systems have APIs which follow proper versioning protocol so you have ample warning and backwards compatability if something changes. However, during my career I have often found
-the reality to be different especially if you are working in a large company with different teams publishing APIs for company internal use only (or not using APIs at all). In this environment, you have little
-to no control over the data schema of this external system's data and you might be surprised by unexpected changes. In the above architecture, even a miniscule change such as changing the name of an attribute
-in the data coming from external system A can result in a broken UI and logs full of exceptions. Depending on your implementation, even changes in attributes that you're not even using can cause this.
-If forcing the external systems to adhere to proper versioning is not an option (which is unfortunately often the case), how do you make your application more robust?
+In a perfect world, these external systems have APIs which follow a versioning protocol so you have ample warning and backwards compatability if something changes. However, the reality can be different
+especially if you are working in a large company with different teams publishing APIs for company internal use only (or not using APIs at all). In this environment, you have little to no control over the data
+schema of this external system's data and you might be surprised by unexpected changes. In the above architecture, even a miniscule change such as changing the name of an attribute in the data coming from
+external system A can result in a broken UI and logs full of exceptions. Depending on your implementation, even changes in attributes that you're not even using can cause this. If forcing the external systems
+to adhere to proper versioning is not an option (which is unfortunately often the case), how do you make your application more robust?
 
 ## The Solution
 
