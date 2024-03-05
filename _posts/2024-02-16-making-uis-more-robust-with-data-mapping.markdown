@@ -7,7 +7,7 @@ tags: [ui,api,mapping,robustness]
 description: "How to use data mapping to make your application more robust against unexpected third-party data schema changes."
 ---
 
-This blog post describes a solution to make your application more robust against unexpected changes in the schema of third-party data which your application is consuming.
+This blog post describes a solution to protect your application against unexpected changes in the schema of third-party data which your application is consuming.
 
 ## Table of Contents
 
@@ -47,7 +47,12 @@ It's advisable to do this as early as possible to protect all parts of your appl
 [<img src="../images/posts/2024-02-16-data-mapping/data_collector.png" height="350" alt="Data mapping inside the data collector"/>](../images/posts/2024-02-16-data-mapping/data_collector.png)
 
 Another advantage is that now you have complete control over your data schema in only one location: your mapping file. If an external system changes its schema you need to only change the mapping file to take
-the source data from a different place, but you can keep the output schema intact, and the change doesn't have to be propagated throughout your application. Let's look at an example.
+the source data from a different place, but you can keep the output schema intact, and the change doesn't have to be propagated throughout your application.
+
+## The Implementation
+
+The idea of data mapping can be implemented in many different ways, depending on which programming language your application is using and what format the data arrives in.
+For this example implementation, let's assume that the application is written in python and the data arrives in JSON format.
 
 Consider this example source data:
 
@@ -160,12 +165,7 @@ If we agree to this convention for lists and you apply this new mapping to the s
 }
 ```
 
-## The Implementation
-
-The idea of data mapping can be implemented in many different ways, depending on which programming language your application is using and what format the data arrives in.
-For this example implementation, let's assume that the application is written in python and the data arrives in JSON format as shown above.
-
-To implement this mapping with python we are using a recursive function. The data arrives as a dictionary and the mapping is pre-defined in a JSON file which is loaded into another dictionary.
+To apply this mapping with python we are using a recursive function. The data arrives as a dictionary and the mapping is pre-defined in a JSON file which is loaded into another dictionary.
 These are passed to the recursive function which evaluates each attribute in the mapping definition to create the result data. If the value of an attribute is a string, we expect this to be a
 JMESPath expression and can map the attribute directly. If it's an object, this nested object in turn has to be mapped according to the same specification. The mapping here is still relative to
 the entire data structure, so different parts of the data can be mapped into each other even if they are nested. If the value of an attribute is a list all list items are mapped according to the
