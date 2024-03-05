@@ -217,6 +217,11 @@ def map_items(data: Dict[str, Any], mapping_definition: Dict[str, Any]):
 - Depending on your needs and the amount of control you have over the different components, data mapping could also be implemented in a different component, such as the API or the UI itself.
 - If your application is not written in python or the data you're receiving is not in JSON format, the principle of data mapping still applies you just might need to use a different mapping implementation.
 
+## Final Thoughts
+
+In volatile environments, data mapping can protect your application from unexpected errors and crashes. Apply data mapping at the entry point of your application to reap the full benefits, such as protection
+from unexpected schema changes and maintaining your data schema in a single location.
+
 ## Supporting Information
 
 - [Click here](https://github.com/jmespath/jmespath.py) to view the jmespath for python library
