@@ -7,7 +7,7 @@ tags: [ui,api,mapping,robustness]
 description: "How to use data mapping to make your application more robust against unexpected third-party data schema changes."
 ---
 
-Lorem ipsum
+This blog post describes a solution to make your application more robust against unexpected changes in the schema of third-party data which your application is consuming.
 
 ## Table of Contents
 
@@ -30,16 +30,17 @@ Note that I'm using the word external to describe systems that are outside of th
 [<img src="../images/posts/2024-02-16-data-mapping/basic_architecture.png" height="350" alt="Basic architecture from data collection to UI"/>](../images/posts/2024-02-16-data-mapping/basic_architecture.png)
 
 In a perfect world, these external systems have APIs which follow proper versioning protocol so you have ample warning and backwards compatability if something changes. However, during my career I have often found
-the reality to be different especially if you are working in a large company with different teams publishing APIs for internal use only (or not using APIs at all). In this environment, you have little to no control
-over the data schema of this external system's data and you might be surprised by unexpected changes. In the above architecture, even a miniscule change such as changing the name of an attribute in the data coming
-from external system A can result in a broken UI and logs full of exceptions. Depending on your implementation, even changes in attributes that you're not even using can cause this. If forcing the external systems
-to adhere to proper versioning is not an option (which is unfortunately often the case), how do you make your application more robust?
+the reality to be different especially if you are working in a large company with different teams publishing APIs for company internal use only (or not using APIs at all). In this environment, you have little
+to no control over the data schema of this external system's data and you might be surprised by unexpected changes. In the above architecture, even a miniscule change such as changing the name of an attribute
+in the data coming from external system A can result in a broken UI and logs full of exceptions. Depending on your implementation, even changes in attributes that you're not even using can cause this.
+If forcing the external systems to adhere to proper versioning is not an option (which is unfortunately often the case), how do you make your application more robust?
 
 ## The Solution
 
-To protect your application from unexpected data schema changes you can use data mapping. For data mapping you need a mapping specification which describes the desired data schema and where in the source data to
-take the values from. This way you decide what attributes are called, how they are nested, etc. You apply the mapping specification to your source data and the result will be the data in your desired format. All
-other parts of the application can now rely on this schema, and are shielded from any changes in the external systems.
+To protect your application from unexpected data schema changes you can use data mapping. This means transforming the incoming data to your desired format before your applications starts using it.
+For data mapping you need a mapping specification which describes the desired data schema and where in the source data to take the values from. This way you decide what attributes are called,
+how they are nested, etc. You apply the mapping specification to your source data and the result will be the data in your desired format. All other parts of the application can now rely on this
+schema, and are shielded from any changes in the external systems.
 
 It's advisable to do this as early as possible to protect all parts of your application. In our example architecture, we're implementing the data mapping in the collector.
 
