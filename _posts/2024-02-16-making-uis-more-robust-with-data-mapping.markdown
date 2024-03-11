@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making an Application More Robust With Data Mapping"
-date:   2023-02-16 17:00:00 +0200
+date:   2024-03-11 09:00:00 +0200
 img: 3.jpg
 tags: [ui,api,mapping,robustness]
 description: "How to use data mapping to make your application more robust against unexpected third-party data schema changes."
