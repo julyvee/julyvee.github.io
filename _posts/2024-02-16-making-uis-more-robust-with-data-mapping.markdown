@@ -29,7 +29,7 @@ Note that the word external is used here to describe systems that are outside of
 
 ![Basic architecture from data collection to UI](../images/posts/2024-02-16-data-mapping/basic_architecture.png)
 
-In a perfect world, these external systems have APIs which follow a versioning protocol so you have ample warning and backwards compatability if something changes. However, the reality can be different
+In a perfect world, these external systems have APIs which follow a versioning protocol so you have ample warning and backwards compatibility if something changes. However, the reality can be different
 especially if you are working in a large company with different teams publishing APIs for company internal use only (or not using APIs at all). In this environment, you have little to no control over the data
 schema of this external system's data and you might be surprised by unexpected changes. In the above architecture, even a miniscule change such as changing the name of an attribute in the data coming from
 external system A can result in a broken UI and logs full of exceptions. Depending on your implementation, even changes in attributes that you're not even using can cause this. If forcing the external systems
@@ -84,7 +84,7 @@ Consider this example source data:
 
 The mapping is specified in a separate JSON file. The attribute names in this file are the names in the final data schema, the values in this case are JMESPath expressions.
 These expressions describe where in the source data to find the value for this attribute. JMESPath is a JSON query language which allows us to search for specific values in the
-source data. There can be simple JSON paths but also more complex expression like `or`-expressions, indicies and pipes. Here's an example mapping that would transform the above
+source data. There can be simple JSON paths but also more complex expression like `or`-expressions, indices and pipes. Here's an example mapping that would transform the above
 source file into a pre-defined schema of our own choosing:
 
 ```json
@@ -195,7 +195,7 @@ def map_items(data: Dict[str, Any], mapping_definition: Dict[str, Any]):
         if isinstance(value, dict):
             mapped_data[key] = map_items(data, value.items())
         # If the value is a list, map according to the convention,
-        # first item in the list specifices the source list name,
+        # first item in the list specifies the source list name,
         # second one the mapping for every list item.
         # Mapping here is relative only to the list item itself.
         elif isinstance(value, list):
