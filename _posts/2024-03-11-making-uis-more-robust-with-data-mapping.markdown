@@ -27,7 +27,7 @@ Imagine you're developing an application with multiple components:
 
 Note that the word external is used here to describe systems that are outside of the scope of your application and are developed and maintained by someone else, even if that someone else is still within your company.
 
-![Basic architecture from data collection to UI](../images/posts/2024-02-16-data-mapping/basic_architecture.png)
+![Basic architecture from data collection to UI]({{site.url}}/images/posts/2024-03-11-data-mapping/basic_architecture.png)
 
 In a perfect world, these external systems have APIs which follow a versioning protocol so you have ample warning and backwards compatibility if something changes. However, the reality can be different
 especially if you are working in a large company with different teams publishing APIs for company internal use only (or not using APIs at all). In this environment, you have little to no control over the data
@@ -44,7 +44,7 @@ schema, and are shielded from any changes in the external systems.
 
 It's advisable to do this as early as possible to protect all parts of your application. In our example architecture, we're implementing the data mapping in the collector.
 
-![Data mapping inside the data collector](../images/posts/2024-02-16-data-mapping/data_collector.png)
+![Data mapping inside the data collector]({{site.url}}/images/posts/2024-03-11-data-mapping/data_collector.png)
 
 Another advantage is that now you have complete control over your data schema in only one location: your mapping file. If an external system changes its schema you need to only change the mapping file to take
 the source data from a different place, but you can keep the output schema intact, and the change doesn't have to be propagated throughout your application.
