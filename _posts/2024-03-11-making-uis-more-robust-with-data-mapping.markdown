@@ -226,3 +226,4 @@ from unexpected schema changes and maintaining your data schema in a single loca
 
 - [Click here](https://github.com/jmespath/jmespath.py) to view the jmespath for python library
 - [Click here](https://jmespath.org/specification.html) to view the full jmespath specification
+- This blog post was also published as a Microsoft ISE Dev Blog, [click here to view](https://devblogs.microsoft.com/ise/data-mapping-for-more-robustness/)
